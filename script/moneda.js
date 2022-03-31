@@ -27,10 +27,10 @@ function ejecutarMoneda () {
         Swal.fire({
             title: 'Bien Ahí!',
             text: 'La suerte dijo que sea CRUZ.',
-            imageUrl: '../img/cruz.png',
+            imageUrl: '../img/cruz.jpg',
             imageWidth: 300,
             imageHeight: 300,
-            imageAlt: 'Image-Cruz.png',
+            imageAlt: 'Image-Cruz.jpg',
         })
     }
     
