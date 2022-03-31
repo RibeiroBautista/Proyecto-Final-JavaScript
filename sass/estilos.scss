@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+//|| COMINEZO DEL SASS PARA INDEX.HTML ||
+body {
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-bienvenida {
+    background-color: #c0c0c0;
+    color: currentColor;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    h1 {
+        text-align: center;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #preguntados {
+        a{
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        &:hover{
+            background-color: #769676;
+            a {
+                color: black;
+            }
+        }
+    }
+    
+    #moneda {
+        a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        &:hover{
+            background-color: #769676;
+            a {
+                color: black;
+            }
+        }
+    }
+    
+    #juego3 {
+        a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        &:hover{
+            background-color: #769676;
+            a {
+                color: black;
+            }
+        }
+    }
+    #pokedex {
+        a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        &:hover{
+            background-color: #769676;
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+.volver button a {
+    color: wheat;
+    background-color: black;
+    padding: 5px;
+}
+
+h3 a img {
+    width: 25%;
+    height: auto;
+}
+
+section {
+    display: flex;
+}
+
+//|| FIN DEL SASS PARA INDEX.HTML ||
+
+// || COMIENZO DEL SASS PARA PREGUNTADOS.HTML ||
+
+button {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: wheat;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerRespuestas {
+    width: 50%;
+    height: auto;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+.respuestas {
+    background-color: rgba(255, 0, 0, 0.493);
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    &:hover{
+        background-color: rgba(0, 255, 13, 0.493);
+        border: 1px solid black;
+        border-radius: 10%;
+        padding: 5px;
+    }
+}
+
+.boton--volver {
+    text-decoration: none;
+    list-style: none;
+    background-color: #ff9900;
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+form {
+    padding: 20px;
+    label {
+        padding: 20px;
+    }
+    p {
+        padding: 20px;
+    }
+}
+
+.hacks {
+    margin-top: 100px;
+}
+
+.textoHacks {
+    border: 1px solid #ff9900;
+    background-color: #769676;
+    padding: 5px;
+}
+// || FIN DEL SASS PARA PREGUNTADOS.HTML ||
+
+// || COMIENZO DEL SASS PARA MONEDA.HTML ||
+
+.lanzarMoneda {
+    padding: 100px;
+}
+.volver {
+    padding: 100px;
+}
+
+.lanzarMoneda input {
+    color: wheat;
+    background-color: black;
+    padding: 5px;
+}
+
+// || FIN DEL SASS PARA MONEDA.HTML ||

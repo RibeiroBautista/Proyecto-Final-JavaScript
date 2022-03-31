@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-bienvenida {
+  background-color: #c0c0c0;
+  color: currentColor;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-bienvenida h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-bienvenida h2 {
+  font-size: 20px;
+}
+
+.container-bienvenida #preguntados a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-bienvenida #preguntados:hover {
+  background-color: #769676;
+}
+
+.container-bienvenida #preguntados:hover a {
+  color: black;
+}
+
+.container-bienvenida #moneda a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-bienvenida #moneda:hover {
+  background-color: #769676;
+}
+
+.container-bienvenida #moneda:hover a {
+  color: black;
+}
+
+.container-bienvenida #juego3 a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-bienvenida #juego3:hover {
+  background-color: #769676;
+}
+
+.container-bienvenida #juego3:hover a {
+  color: black;
+}
+
+.container-bienvenida #pokedex a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-bienvenida #pokedex:hover {
+  background-color: #769676;
+}
+
+.container-bienvenida #pokedex:hover a {
+  color: black;
+}
+
+.volver button a {
+  color: wheat;
+  background-color: black;
+  padding: 5px;
+}
+
+h3 a img {
+  width: 25%;
+  height: auto;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: wheat;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerRespuestas {
+  width: 50%;
+  height: auto;
+  border: 2px solid grey;
+  padding: 5px;
+}
+
+.respuestas {
+  background-color: rgba(255, 0, 0, 0.493);
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.respuestas:hover {
+  background-color: rgba(0, 255, 13, 0.493);
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.boton--volver {
+  text-decoration: none;
+  list-style: none;
+  background-color: #ff9900;
+}
+
+.boton--volver a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  padding: 20px;
+}
+
+form label {
+  padding: 20px;
+}
+
+form p {
+  padding: 20px;
+}
+
+.hacks {
+  margin-top: 100px;
+}
+
+.textoHacks {
+  border: 1px solid #ff9900;
+  background-color: #769676;
+  padding: 5px;
+}
+
+.lanzarMoneda {
+  padding: 100px;
+}
+
+.volver {
+  padding: 100px;
+}
+
+.lanzarMoneda input {
+  color: wheat;
+  background-color: black;
+  padding: 5px;
+}
+/*# sourceMappingURL=estilos.css.map */
